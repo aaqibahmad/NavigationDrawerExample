@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Company Information"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_library_music_black_24dp"
+            android:title="Music Player"/>
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+            android:title="Shopping"/>
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_filter_vintage_black_24dp"
+            android:title="Greetings App"/>
+    </group>
+</menu>
